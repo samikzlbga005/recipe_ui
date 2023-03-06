@@ -18,6 +18,7 @@ class Search extends StatelessWidget {
         cursorColor: Colors.black,
         decoration: InputDecoration(
           border: InputBorder.none,
+          hintText: 'Search',
           prefixIcon: Icon(
             Icons.search,
             color: Colors.black,

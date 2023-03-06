@@ -12,16 +12,16 @@ class Stories extends StatelessWidget {
     return Container(
       height: 100,
       child: ListView(scrollDirection: Axis.horizontal, children: [
-        Horizontal_Listview(
+        const Horizontal_Listview(
           icon_path: 'lib/icons/beer.png',
           icon_name: 'Beer',
         ),
-        Horizontal_Listview(
+        const Horizontal_Listview(
             icon_path: 'lib/icons/cocktail.png', icon_name: 'Cocktail'),
-        Horizontal_Listview(icon_path: 'lib/icons/soda.png', icon_name: 'Soda'),
-        Horizontal_Listview(
+        const Horizontal_Listview(icon_path: 'lib/icons/soda.png', icon_name: 'Soda'),
+        const Horizontal_Listview(
             icon_path: 'lib/icons/tequila.png', icon_name: 'Tequila'),
-        Horizontal_Listview(
+        const Horizontal_Listview(
             icon_path: 'lib/icons/mojito.png', icon_name: 'Mojito'),
       ]),
     );
